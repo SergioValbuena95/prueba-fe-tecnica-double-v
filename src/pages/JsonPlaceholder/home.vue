@@ -7,6 +7,7 @@
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <cardUser
                 v-for="user in userList"
+                class="cursor-pointer"
                 :key="user.id"
                 :id="user.id"
                 :name="user.name"
